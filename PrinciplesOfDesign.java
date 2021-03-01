@@ -16,7 +16,7 @@ import java.util.Random;
 public class PrinciplesOfDesign {
 
 	Random rand = new Random();//random for class
-	int Unity = 3;// one attribute to be consistent
+	int Unity = rand.nextInt(4) + 1;// one attribute to be consistent
 	int variety = rand.nextInt(4) + 1;// variation in all others
 	int Emphasis = rand.nextInt(4) + 1;// the quadrant that will house the last element
 
